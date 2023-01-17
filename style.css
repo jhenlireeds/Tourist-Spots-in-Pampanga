@@ -1,0 +1,87 @@
+* {
+    margin:0;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: aliceblue;
+}
+
+h1{
+    font-size: 50px;
+    font-style: arial;
+    text-align: center;
+    color: darkgreen;
+}
+
+.box{
+border-radius: 10px;
+text-align: center;
+border: 10px solid lightgreen;
+list-style-type: none;
+padding: 20px;
+width: 300px;
+height: 250px;
+}
+
+.box a{
+    text-decoration: none;
+    color:black;
+
+}
+.lol{
+    height: 320px;
+    width: 650px;
+    float: right;
+}
+
+p{
+    font-size: 20px;
+    font-style: arial;
+}
+h2{
+    font-size: 40px;
+    text-decoration: none;
+    color: darkgreen;
+    
+}
+h2 a{
+    font-size: 40px;
+    text-decoration: none;
+    color: darkgreen;
+    
+}
+ul{
+    font-size: 20px;
+    font-style: arial;
+}
+.container ul{
+    list-style-type: none;
+    background-color:aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container ul a {
+    text-decoration: solid;
+    background-color:aquamarine;
+}
+.container ul a li {
+    color:black;
+    background-color:aquamarine;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer {
+    background-color: #2b2b2b;
+  
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer p {
+    color:white;
+    text-align: center;
+    font-size: 30px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
